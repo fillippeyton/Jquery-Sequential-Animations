@@ -1,1 +1,36 @@
-Project Summary/Documentation coming soon!
+# Jquery Sequential Animations!
+
+This small Jquery plugin is used to (much like the name suggests) sequentially animate HTML elements on a page. You can animate practically any CSS property that Jquery can accept. This is very useful for animating elements in or out of a page.
+
+At its core, this plugin uses Jquery's [.animate()](http://api.jquery.com/animate/) to animate CSS properties with Jquery.
+
+## Features
+- Chainable
+- Animate any CSS property that Jquery can animate
+- Can run a callback function after all animations have completed
+
+
+
+
+
+## Available Options:
+	animateFrom
+		Required?: Yes
+		Default value: {}
+		Accepted value type: object
+	animateTo
+		Required?: Yes
+		Default value: {}
+		Accepted value type: object
+	animationDelay
+		Required?: No
+		Default value: 500
+		Accepted value type: int
+	animationSpeed
+		Required?: No
+		Default value: 1000
+		Accepted value type: int
+	callback
+		Required?: No
+		Default value: null
+		Accepted value type: function

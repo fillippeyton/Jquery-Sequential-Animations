@@ -2,10 +2,10 @@
 (function($){
     $.sequentialAnimations = {
         defaultOptions : {
-            animationDelay : 500, // milliseconds
-            animationSpeed : 1000, // milliseconds
             animateFrom : {},
             animateTo : {},
+            animationDelay : 500, // milliseconds
+            animationSpeed : 1000, // milliseconds
             callback : null,
         }
     }
