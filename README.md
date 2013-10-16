@@ -14,23 +14,27 @@ At its core, this plugin uses Jquery's [.animate()](http://api.jquery.com/animat
 
 
 ## Available Options:
-	animateFrom
-		Required?: Yes
-		Default value: {}
-		Accepted value type: object
-	animateTo
-		Required?: Yes
-		Default value: {}
-		Accepted value type: object
-	animationDelay
-		Required?: No
-		Default value: 500
-		Accepted value type: int
-	animationSpeed
-		Required?: No
-		Default value: 1000
-		Accepted value type: int
-	callback
-		Required?: No
-		Default value: null
-		Accepted value type: function
+```javascript
+$('.block').sequentialAnimations({
+	animateFrom: {},
+		// Required?: Yes
+		// Default value: {}
+		// Accepted value type: object
+	animateTo: {},
+		// Required?: Yes
+		// Default value: {}
+		// Accepted value type: object
+	animationDelay: 500,
+		// Required?: No
+		// Default value: 500
+		// Accepted value type: int
+	animationSpeed: 1000,
+		// Required?: No
+		// Default value: 1000
+		// Accepted value type: int
+	callback: null
+		// Required?: No
+		// Default value: null
+		// Accepted value type: function
+});
+```
