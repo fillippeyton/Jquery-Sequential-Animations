@@ -2,7 +2,7 @@
 
 This small Jquery plugin is used to (much like the name suggests) sequentially animate HTML elements on a page. You can animate practically any CSS property that Jquery can accept. This is very useful for animating elements in or out of a page.
 
-At its core, this plugin uses Jquery's [.animate()](http://api.jquery.com/animate/) to animate CSS properties with Jquery. Just pass the plugin CSS Object literal in animateFrom and animateTo to animate!
+At its core, this plugin uses Jquery's ```[.animate()](http://api.jquery.com/animate/)``` to animate CSS properties with Jquery. Just pass the plugin CSS Object literal in ```animateFrom``` and ```animateTo``` to animate!
 
 ## Features
 - Chainable
