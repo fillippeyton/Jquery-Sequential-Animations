@@ -17,24 +17,24 @@ At its core, this plugin uses Jquery's [```.animate()```](http://api.jquery.com/
 ```javascript
 $('.block').sequentialAnimations({
 	animateFrom: {},
-		// Required?: Yes
-		// Default value: {}
-		// Accepted value type: CSS object literal
+		// Required: Yes
+		// Accepted: Jquery object literal
+		// Default: {}
 	animateTo: {},
-		// Required?: Yes
-		// Default value: {}
-		// Accepted value type: CSS object literal
+		// Required: Yes
+		// Accepted: Jquery object literal
+		// Default: {}
 	animationDelay: 500,
-		// Required?: No
-		// Default value: 500
-		// Accepted value type: int
+		// Required: No
+		// Accepted: int
+		// Default: 500
 	animationSpeed: 1000,
-		// Required?: No
-		// Default value: 1000
-		// Accepted value type: int
+		// Required: No
+		// Accepted: int
+		// Default: 1000
 	callback: null
-		// Required?: No
-		// Default value: null
-		// Accepted value type: function
+		// Required: No
+		// Accepted: function
+		// Default: null
 });
 ```
